@@ -1,0 +1,30 @@
+.section {
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px #ccc;
+    margin: 20px;
+}
+
+.section__header {
+    color: navy;
+}
+
+.section__paragraph {
+    color: #333;
+}
+
+.section__paragraph--highlighted {
+    color: indigo;
+}
+
+.section__foto {
+    box-shadow: 6px 6px 12px gray;
+}
+
+.section__list {
+    list-style-type: square;
+}
+
+.section__listItem {
+    margin: 10px 0;
+}

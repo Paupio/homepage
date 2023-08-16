@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+}
+
+.dark {
+    color: #333;
+    background: #777;
+}

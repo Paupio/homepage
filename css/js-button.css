@@ -1,0 +1,12 @@
+.js-button {
+    background-color: transparent;
+    color: black;
+    font-size: large;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    border: groove 3px rgb(129, 105, 25);
+    border-radius: 25px;
+}

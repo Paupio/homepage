@@ -1,0 +1,39 @@
+.navigation {
+    list-style: none;
+    padding-bottom: 1px;
+    border-bottom: 1px groove black;
+    margin-bottom: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.navigation__list {
+    list-style: none;
+    list-style-type: none;
+    margin: 15px;
+    margin-inline-start: auto;
+    margin-block-start: auto;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.navigation__item {
+    margin: 10 px 0;
+    padding: 10px;
+  }
+
+.navigation__link {
+    color: black;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: blueviolet;
+    margin: 10px;
+}
+  
+
+
+
+  
