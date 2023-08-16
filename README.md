@@ -1,4 +1,4 @@
-# HOMEPAGE
+# Homepage
 
 ![Paulina](images/Paulina.jpg)
 
