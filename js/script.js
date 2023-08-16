@@ -1,10 +1,22 @@
-console.log("Cześć!");
+{
+    const welcome = () => {
+        console.log("Cześć!");
+    }
 
-let button = document.querySelector(".js-button");
-let body = document.querySelector(".body");
-let color = document.querySelector(".color");
+    const toggleBackground = () => {
+        const body = document.querySelector(".body");
+        const color = document.querySelector(".color");
+        body.classList.toggle("dark");
+        color.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+    };
 
-button.addEventListener("click", () => {
-    body.classList.toggle("dark");
-    color.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
-});
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", toggleBackground);
+
+        welcome();
+    };
+
+    init();
+
+}
